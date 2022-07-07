@@ -1,0 +1,86 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: linear-gradient(lightyellow, orange);
+}
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+select {
+  font-size: 1rem;
+}
+
+.section-container {
+  display: flex;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  border: 2px solid red;
+}
+
+.column {
+  flex: 1;
+}
+
+img {
+  max-width: 900px;
+  max-height: 700px;
+}
+
+.breed-choice {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+
+.characteristics {
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+
+#dog-name {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+#left-column {
+  text-align: center;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
